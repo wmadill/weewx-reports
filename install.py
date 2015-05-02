@@ -17,7 +17,7 @@ class ReportsInstaller(ExtensionInstaller):
             config={
                 'StdArchive': {
                     'Reports': {
-                        'report_intreval': 1800,}}},
+                        'report_intreval': '1800'}}},
 
             files=[('bin/user', ['bin/user/reports.py'])]
             )
