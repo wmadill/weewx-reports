@@ -1,6 +1,9 @@
 # weewx-reports
 
-weewx extension to upload reports less frequently than the archive
+This extension is no longer needed. As of weewx 3.6, there is a "report_timing"
+option in the "[StdReport]" section of weewx.conf.
+
+This is a weewx extension to upload reports less frequently than the archive
 interval. For various reasons, I do not care about seeing the weather
 data every archive interval but I do want it in the weewx databases.
 
